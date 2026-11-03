@@ -4,18 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--
-  PENDENTE (trocar quando o cliente mandar):
-  - WhatsApp: procurar "5500000000000" e "(00) 00000-0000"
-  - Cidade/região de atendimento: procurar "[CIDADE]"
-  - Endereço, CNPJ, e-mail, Instagram, Facebook: rodapé
-  - Logo: img/prestservice-logo.svg é provisória
-  - Fotos do Antes e Depois: img/pos-obra/antes1..3.jpg e depois1..3.jpg
+  Dados puxados do CRM (questionários da Joilma, 03/11/2026).
+  PENDENTE:
+  - Logo: img/prestservice-logo.svg é provisória (cliente quer logo nova)
+  - Fotos do Antes e Depois: img/pos-obra/antes1..3.jpg e depois1..3.jpg (cliente tem algumas no Drive)
+  - Instagram/Facebook: ainda não existem (vamos criar)
 -->
-<title>PrestService | Limpeza Pós-Obra Profissional</title>
-<meta name="description" content="Limpeza pós-obra completa: poeira fina, tinta, cimento e massa fora de pisos, vidros e acabamentos. Imóvel pronto para morar ou entregar. Orçamento grátis no WhatsApp.">
-<meta name="keywords" content="limpeza pós-obra, limpeza pós obra, limpeza pós construção, limpeza pós reforma, faxina pós obra, limpeza pesada, limpeza fina de entrega, PrestService">
+<title>PrestService | Limpeza Pós-Obra em Redenção - PA</title>
+<meta name="description" content="Limpeza pós-obra completa: poeira fina, tinta, cimento e massa fora de pisos, vidros e acabamentos. Há 13 anos em Redenção, Xinguara, Parauapebas, Canaã dos Carajás e Tucumã. Orçamento grátis no WhatsApp.">
+<meta name="keywords" content="limpeza pós-obra, limpeza pós obra Redenção, limpeza pós obra Parauapebas, limpeza pós obra Xinguara, limpeza pós construção, limpeza pós reforma, faxina pós obra, limpeza pesada, limpeza fina de entrega, PrestService">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#12394A">
+<meta name="theme-color" content="#4A3226">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -34,7 +33,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-<link rel="stylesheet" href="style.css?v=20261103">
+<link rel="stylesheet" href="style.css?v=20261103b">
 
 <script type="application/ld+json">
 {
@@ -42,9 +41,20 @@
   "@type": "LocalBusiness",
   "name": "PrestService",
   "image": "img/pos-obra/imovel-pronto.jpg",
-  "telephone": "+55-00-00000-0000",
+  "telephone": "+55-94-99189-8764",
+  "email": "jaleda0101@gmail.com",
   "priceRange": "$$",
-  "areaServed": ["[CIDADE]"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua José Júlio da Silva, 436, Sala A - Setor Oeste",
+    "addressLocality": "Redenção",
+    "addressRegion": "PA",
+    "postalCode": "68552-263",
+    "addressCountry": "BR"
+  },
+  "openingHours": "Mo-Fr 08:00-18:00",
+  "paymentAccepted": "Pix, Dinheiro, Cartão de crédito, Cartão de débito, Boleto",
+  "areaServed": ["Redenção - PA", "Xinguara - PA", "Parauapebas - PA", "Canaã dos Carajás - PA", "Tucumã - PA"],
   "description": "Limpeza pós-obra e pós-reforma para casas, apartamentos e empresas."
 }
 </script>
@@ -67,7 +77,7 @@
     </nav>
 
     <div class="header-actions">
-      <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp header-cta" target="_blank" rel="noopener" data-cta="header">
+      <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp header-cta" target="_blank" rel="noopener" data-cta="header">
         <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
@@ -83,18 +93,18 @@
     <div class="hero-text reveal">
       <span class="badge"><i class="fa-solid fa-helmet-safety"></i> Especialistas em Limpeza Pós-Obra</span>
       <h1>A obra acabou.<br>A gente deixa o seu imóvel <span>pronto para morar</span>.</h1>
-      <p class="hero-sub"><strong class="hero-sub-lead">Poeira fina, tinta, cimento e massa: tiramos tudo.</strong> Limpeza pós-obra e pós-reforma para casas, apartamentos e empresas, com equipe treinada, produtos certos para cada acabamento e prazo combinado.</p>
+      <p class="hero-sub"><strong class="hero-sub-lead">Poeira fina, tinta, cimento e massa: tiramos tudo.</strong> Há 13 anos fazendo limpeza pós-obra e pós-reforma para casas, apartamentos, empresas e condomínios em Redenção, Xinguara, Parauapebas, Canaã dos Carajás e Tucumã, com equipe treinada e supervisionada.</p>
 
       <div class="hero-actions">
-        <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="hero">
+        <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="hero">
           <i class="fa-brands fa-whatsapp"></i> Pedir Orçamento pelo WhatsApp
         </a>
         <span class="cta-note"><i class="fa-solid fa-bolt"></i> Resposta rápida &middot; Orçamento sem compromisso</span>
       </div>
 
       <div class="hero-trust">
-        <div class="hero-trust-item"><i class="fa-solid fa-user-check"></i><span>Equipe treinada</span></div>
-        <div class="hero-trust-item"><i class="fa-solid fa-spray-can-sparkles"></i><span>Produtos profissionais</span></div>
+        <div class="hero-trust-item"><i class="fa-solid fa-award"></i><span>13 anos de mercado</span></div>
+        <div class="hero-trust-item"><i class="fa-solid fa-user-check"></i><span>Equipe com supervisão</span></div>
         <div class="hero-trust-item"><i class="fa-solid fa-calendar-check"></i><span>Prazo combinado</span></div>
         <div class="hero-trust-item"><i class="fa-solid fa-clipboard-check"></i><span>Vistoria na entrega</span></div>
       </div>
@@ -109,8 +119,8 @@
           <img src="img/pos-obra/hero-detalhe.jpg" alt="Mão com luva limpando bancada de mármore com pano de microfibra" width="1000" height="750" loading="lazy">
         </div>
         <div class="hero-media-badge">
-          <strong>100%</strong>
-          <span>foco em pós-obra</span>
+          <strong>13 anos</strong>
+          <span>de mercado</span>
         </div>
       </div>
     </div>
@@ -121,12 +131,16 @@
 <!-- PARA QUEM -->
 <section class="clients" id="clientes">
   <div class="container">
+    <div class="clients-stat reveal">
+      <strong>+50</strong>
+      <span>clientes atendidos em Redenção e região</span>
+    </div>
     <p class="clients-label reveal">Atendemos</p>
     <div class="clients-row reveal">
       <div class="client-chip"><i class="fa-solid fa-house"></i> Casas</div>
       <div class="client-chip"><i class="fa-solid fa-building"></i> Apartamentos</div>
-      <div class="client-chip"><i class="fa-solid fa-store"></i> Lojas e Escritórios</div>
-      <div class="client-chip"><i class="fa-solid fa-trowel-bricks"></i> Construtoras e Arquitetos</div>
+      <div class="client-chip"><i class="fa-solid fa-store"></i> Empresas e Lojas</div>
+      <div class="client-chip"><i class="fa-solid fa-city"></i> Condomínios</div>
     </div>
   </div>
 </section>
@@ -158,7 +172,7 @@
             <li><i class="fa-solid fa-check"></i> Respingos de tinta em pisos, portas e rodapés</li>
             <li><i class="fa-solid fa-check"></i> Recolhimento de resíduos leves</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20pesada%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-pesada" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20pesada%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-pesada" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -181,7 +195,7 @@
             <li><i class="fa-solid fa-check"></i> Louças, metais e bancadas</li>
             <li><i class="fa-solid fa-check"></i> Vistoria final ambiente por ambiente</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20fina%20de%20entrega." class="service-cta" target="_blank" rel="noopener" data-cta="servico-fina" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20fina%20de%20entrega." class="service-cta" target="_blank" rel="noopener" data-cta="servico-fina" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -203,7 +217,7 @@
             <li><i class="fa-solid fa-check"></i> Porcelanato, cerâmica, mármore e granito</li>
             <li><i class="fa-solid fa-check"></i> Produto certo para cada tipo de piso</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20pisos%20e%20porcelanato%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-pisos" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20pisos%20e%20porcelanato%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-pisos" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -226,7 +240,7 @@
             <li><i class="fa-solid fa-check"></i> Esquadrias e trilhos</li>
             <li><i class="fa-solid fa-check"></i> Remoção de etiquetas e respingos</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20vidros%20e%20esquadrias%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-vidros" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20vidros%20e%20esquadrias%20p%C3%B3s-obra." class="service-cta" target="_blank" rel="noopener" data-cta="servico-vidros" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -248,7 +262,7 @@
             <li><i class="fa-solid fa-check"></i> Excesso de rejunte e argamassa</li>
             <li><i class="fa-solid fa-check"></i> Azulejos, pastilhas e porcelanato de parede</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20rejunte%20e%20revestimentos." class="service-cta" target="_blank" rel="noopener" data-cta="servico-rejunte" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20de%20rejunte%20e%20revestimentos." class="service-cta" target="_blank" rel="noopener" data-cta="servico-rejunte" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -258,20 +272,20 @@
         <div class="photo-slot photo-slot-card">
           <img src="img/pos-obra/comercial-fachada.jpg" alt="Profissional limpando a fachada de vidro de uma loja com rodo de cabo longo" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="photo-placeholder"><i class="fa-solid fa-camera"></i><span>Comercial</span></div>
-          <span class="service-tag">Lojas e escritórios</span>
+          <span class="service-tag">Empresas e condomínios</span>
         </div>
         <div class="card-body">
           <div class="service-head">
-            <h3>Pós-Obra Comercial</h3>
+            <h3>Pós-Obra em Empresas e Condomínios</h3>
             <span class="service-num">06</span>
           </div>
-          <p>Loja, escritório ou consultório recém-reformado limpo a tempo da inauguração, com equipe discreta e horário combinado.</p>
+          <p>Loja, escritório, consultório ou área comum de condomínio recém-reformada limpa a tempo da inauguração, com equipe supervisionada e horário combinado.</p>
           <ul class="service-checks">
             <li><i class="fa-solid fa-check"></i> Fachadas de vidro e vitrines</li>
             <li><i class="fa-solid fa-check"></i> Atendimento para construtoras e arquitetos</li>
             <li><i class="fa-solid fa-check"></i> Horário combinado com a obra</li>
           </ul>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra%20comercial." class="service-cta" target="_blank" rel="noopener" data-cta="servico-comercial" title="Abrir conversa no WhatsApp">
+          <a href="https://wa.me/5594991898764?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra%20comercial." class="service-cta" target="_blank" rel="noopener" data-cta="servico-comercial" title="Abrir conversa no WhatsApp">
             <span>Quero um orçamento</span> <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -279,7 +293,7 @@
     </div>
 
     <div class="section-cta reveal">
-      <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="servicos">
+      <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="servicos">
         <i class="fa-brands fa-whatsapp"></i> Quero um orçamento para o meu imóvel
       </a>
     </div>
@@ -337,7 +351,7 @@
     </div>
 
     <div class="section-cta reveal">
-      <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="antes-depois">
+      <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="antes-depois">
         <i class="fa-brands fa-whatsapp"></i> Quero esse resultado no meu imóvel
       </a>
     </div>
@@ -355,14 +369,14 @@
 
     <div class="grid grid-3 features">
       <div class="feature reveal">
-        <div class="feature-icon"><i class="fa-solid fa-helmet-safety"></i></div>
-        <h3>Foco em Pós-Obra</h3>
-        <p>É o que fazemos todos os dias. Sabemos onde a poeira se esconde e como tirar cada tipo de resíduo de obra.</p>
+        <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+        <h3>13 Anos de Mercado</h3>
+        <p>Mais de 50 clientes atendidos em Redenção e região. Sabemos onde a poeira de obra se esconde e como tirar cada tipo de resíduo.</p>
       </div>
       <div class="feature reveal">
         <div class="feature-icon"><i class="fa-solid fa-user-check"></i></div>
-        <h3>Equipe Treinada e Uniformizada</h3>
-        <p>Profissionais capacitados e identificados, que cuidam do seu imóvel como se fosse deles.</p>
+        <h3>Equipe Treinada e Supervisionada</h3>
+        <p>Toda limpeza tem supervisão, para garantir o mesmo padrão de qualidade em cada ambiente, com responsabilidade e compromisso.</p>
       </div>
       <div class="feature reveal">
         <div class="feature-icon"><i class="fa-solid fa-flask"></i></div>
@@ -382,7 +396,7 @@
       <div class="feature reveal">
         <div class="feature-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
         <h3>Orçamento Sem Compromisso</h3>
-        <p>Você manda fotos ou agendamos uma visita, e recebe uma proposta clara, sem surpresa no final.</p>
+        <p>Você manda fotos ou agendamos uma visita e recebe uma proposta clara. Aceitamos Pix, dinheiro, cartão e boleto.</p>
       </div>
     </div>
   </div>
@@ -448,7 +462,7 @@
   <div class="container cta-final-inner reveal">
     <h2>Sua obra terminou? Deixe a limpeza com a gente.</h2>
     <p>Fale agora com a nossa equipe e receba um orçamento gratuito.</p>
-    <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="cta-final">
+    <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20limpeza%20p%C3%B3s-obra." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener" data-cta="cta-final">
       <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento Grátis
     </a>
   </div>
@@ -459,17 +473,19 @@
   <div class="container footer-inner">
     <div class="footer-col">
       <img src="img/prestservice-logo.svg" alt="PrestService" class="footer-logo">
-      <p>Limpeza pós-obra e pós-reforma para casas, apartamentos e empresas em [CIDADE] e região.</p>
+      <p>Limpeza pós-obra e pós-reforma para casas, apartamentos, empresas e condomínios em Redenção, Xinguara, Parauapebas, Canaã dos Carajás e Tucumã - PA.</p>
       <div class="footer-legal">
         <p>PrestService</p>
-        <p>CNPJ: 00.000.000/0001-00</p>
+        <p>CNPJ: 06.033.643/0001-18</p>
       </div>
     </div>
 
     <div class="footer-col">
       <h4>Contato</h4>
-      <p><i class="fa-solid fa-location-dot"></i> [CIDADE] e região</p>
-      <p><i class="fa-solid fa-phone"></i> <a href="tel:+5500000000000">(00) 00000-0000</a></p>
+      <p><i class="fa-solid fa-location-dot"></i> Rua José Júlio da Silva, 436, Sala A - Setor Oeste, Redenção - PA, CEP 68552-263</p>
+      <p><i class="fa-solid fa-phone"></i> <a href="tel:+5594991898764">(94) 99189-8764</a></p>
+      <p><i class="fa-solid fa-envelope"></i> <a href="mailto:jaleda0101@gmail.com">jaleda0101@gmail.com</a></p>
+      <p><i class="fa-solid fa-clock"></i> Segunda a sexta, das 8h às 18h</p>
     </div>
 
     <div class="footer-col">
@@ -482,14 +498,14 @@
 
     <div class="footer-col">
       <h4>Fale Conosco</h4>
-      <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-whatsapp" target="_blank" rel="noopener" data-cta="footer">
+      <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-whatsapp" target="_blank" rel="noopener" data-cta="footer">
         <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
       </a>
-      <div class="footer-social">
-        <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
-      </div>
     </div>
+  </div>
+
+  <div class="footer-map">
+    <iframe title="Localização PrestService" src="https://www.google.com/maps?q=Rua+Jos%C3%A9+J%C3%BAlio+da+Silva,+436,+Reden%C3%A7%C3%A3o+-+PA,+68552-263&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <div class="footer-bottom">
@@ -499,13 +515,13 @@
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp" data-cta="float">
+<a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp" data-cta="float">
   <i class="fa-brands fa-whatsapp"></i>
 </a>
 
 <!-- MOBILE STICKY CTA -->
 <div class="mobile-sticky">
-  <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-whatsapp" target="_blank" rel="noopener" data-cta="sticky"><i class="fa-brands fa-whatsapp"></i> Pedir orçamento no WhatsApp</a>
+  <a href="https://wa.me/5594991898764?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-whatsapp" target="_blank" rel="noopener" data-cta="sticky"><i class="fa-brands fa-whatsapp"></i> Pedir orçamento no WhatsApp</a>
 </div>
 
 <script src="javascript.js?v=20261103"></script>
