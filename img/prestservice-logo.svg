@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64">
-  <g transform="translate(4 6)">
-    <path d="M26 2 L50 16 V50 H2 V16 Z" fill="#5A3E2E"/>
-    <path d="M18 50 V32 H34 V50" fill="#F0912B"/>
-    <path d="M40 4 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#F0912B" stroke="#fff" stroke-width="1.5"/>
-  </g>
-  <text x="64" y="42" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5"><tspan fill="#5A3E2E">Prest</tspan><tspan fill="#F0912B">Service</tspan></text>
-</svg>
